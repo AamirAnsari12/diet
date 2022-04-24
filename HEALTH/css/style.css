@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width:100%;
+    height:500px;
+    background-color: transparent;
+    border-top-left-radius: 20% 30%;
+    border-top-right-radius: 20% 30%;
+    transform: rotate(180deg);
+    position: relative;
+    overflow: hidden;
+}
+.box:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(109.6deg, rgb(8, 27, 136) 11.2%, rgb(3, 115, 180) 91.1%);
+    transform: rotate(180deg);
+}
+h1{
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 50px;
+
+}
+img{
+    height: 100px;
+    position: absolute;
+    top: 15%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+}
+#box1{
+    margin-right: 15%;
+    padding: 40px;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(25, 192, 75);
+}
+#box2{
+    margin-right: 20%;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+    height: 100px;
+    background-color: rgb(255, 192, 75);
+}
+a{
+    text-decoration: none;
+
+}
+.Activity{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+h2{
+    margin-left: 36%;
+}
+#box3{
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+    width: 60%;
+    height: 100px;
+    background-image: linear-gradient(40deg, rgb(158, 171, 248) 10.2%, rgb(33, 115, 167) 95.1%);
+    border-radius: 15px;
+    margin-left:14%
+}
+.walk{
+    padding: 30px;
+}
+#med{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 30px;
+}
+#box4{
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+    width: 60%;
+    height: 100px;
+    background-color: rgb(145, 252, 118);
+    border-radius: 15px;
+    margin-left:14%
+}
+.walk{
+    padding: 30px;
+}
+#med{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 30px;
+}
+#left{
+    margin-top: 7%;
+    margin-left: 60%;
+    font-size: 20PX;
+}
+#left2{
+    margin-top: 7%;
+    margin-left: 67%;
+    font-size: 20PX;
+}
+h3{
+    font-size: 35px;
+    margin-left: 35%;
+}
+@media screen and (max-width: 393px) {
+    h1{
+        left: 34%;
+        font-size: 25px;
+    }
+    img{
+        left:60%;
+        height: 70px;
+    }
+    .box{
+        width:100%;
+        height:350px;
+        background-color: transparent;
+        border-top-left-radius: 20% 20%;
+        border-top-right-radius: 20% 20%;
+        transform: rotate(180deg);
+        position: relative;
+        overflow: hidden;
+    }
+    .box:after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height:500px;
+        background-image: linear-gradient(109.6deg, rgb(8, 27, 136) 11.2%, rgb(3, 115, 180) 91.1%);
+        transform: rotate(180deg);
+    }
+    .container{
+        position: absolute;
+        top: 35%;
+        left: 60%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        justify-content: center;
+    }
+    #box1{
+        margin-right: 5%;
+        padding: 30px;
+        border-radius: 10px;
+        width: 90px;
+        height: 100px;
+        background-color: rgb(25, 192, 75);
+    }
+    #box2{
+        padding: 30px;
+        border-radius: 10px;
+        width: 120px;
+        height: 100px;
+        background-color: rgb(255, 192, 75);
+    }
+    #box3{
+        width: 90%;
+        height: 60px;
+        background-image: linear-gradient(40deg, rgb(158, 171, 248) 10.2%, rgb(33, 115, 167) 95.1%);
+        border-radius: 15px;
+        margin-left:0%
+    }
+    #box4{
+        width: 90%;
+        height: 60px;
+        background-image: linear-gradient(40deg, rgb(229, 248, 158) 10.2%, rgb(31, 250, 24) 95.1%);
+        border-radius: 15px;
+        margin-left:0%
+    }
+    .walk{
+        padding: 10px;
+    }
+    #med{
+        margin-left: 5%;
+    }
+    h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    h3{
+        margin-top: 15%;
+        margin-left: 17%;
+        font-size: 15px;
+    }
+    
+}
